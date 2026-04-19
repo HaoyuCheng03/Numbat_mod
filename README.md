@@ -1,5 +1,6 @@
-# Numbat_mod
-Modify Numbat (a scRNA-seq CNV caller) for better scalability
+# Enhancing Numbat for Scalable Copy Number Variation Inference and Robust Subclonal Detection from Single-Cell RNA Sequencing Data
+Haoyu Cheng
+Submitted in partial fulfillment of the requirements for Research Honors in the Degree of Master of Science in Computational Biology, Carnegie Mellon University
 
 ## Abstract:
 Copy number variations (CNVs) are key drivers of genomic instability in cancer and are central
