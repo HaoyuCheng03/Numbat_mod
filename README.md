@@ -1,0 +1,24 @@
+# Numbat_mod
+Modify Numbat (a scRNA-seq CNV caller) for better scalability
+
+## Abstract:
+Copy number variations (CNVs) are key drivers of genomic instability in cancer and are central
+to characterizing tumor heterogeneity. Single-cell RNA sequencing (scRNA-seq) enables
+CNV inference at single-cell resolution, and numerous computational tools have been developed
+for this purpose. Among them, Numbat has consistently outperformed other methods
+in both CNV detection and tumor-cell classification across multiple benchmarking studies.
+However, it can struggle to resolve subclonal structure in some datasets, and its high computational
+cost further restricts its scalability to large cohorts.
+
+To address these limitations, we systematically analyzed Numbat’s computational bottlenecks
+and introduced several efficiency-oriented algorithmic improvements. We replaced
+its original hierarchical clustering procedure with a hybrid hierarchical K-means strategy
+to construct cluster-level phylogenies, and we modified ScisTree, the maximum-likelihood
+phylogeny method used by Numbat, to directly map CNV events onto these phylogenies,
+thereby determining the subclonal structure. With these modifications, runtime complexity
+decreases from approximately quadratic to linear, and memory requirements are reduced
+by more than 80%. In parallel, the improved pipeline achieves lineage-inference and CNVinference
+accuracy comparable to the original implementation across 14 diverse real samples.
+Collectively, these enhancements provide a more scalable, efficient, and similarly accurate
+approach for subclonal CNV inference from scRNA-seq data, supporting large-scale tumor
+analyses and emerging applications in personalized and translational cancer research.
