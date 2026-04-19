@@ -24,3 +24,9 @@ accuracy comparable to the original implementation across 14 diverse real sample
 Collectively, these enhancements provide a more scalable, efficient, and similarly accurate
 approach for subclonal CNV inference from scRNA-seq data, supporting large-scale tumor
 analyses and emerging applications in personalized and translational cancer research.
+
+
+## Workflow:
+<p align="center">
+  <img src="workflow.png" width="700">
+</p>
