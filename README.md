@@ -1,5 +1,6 @@
 # Enhancing Numbat for Scalable Copy Number Variation Inference and Robust Subclonal Detection from Single-Cell RNA Sequencing Data
 Haoyu Cheng
+
 Submitted in partial fulfillment of the requirements for Research Honors in the Degree of Master of Science in Computational Biology, Carnegie Mellon University
 
 ## Abstract:
