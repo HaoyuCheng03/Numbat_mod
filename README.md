@@ -32,7 +32,7 @@ analyses and emerging applications in personalized and translational cancer rese
 </p>
 
 
-## Acknowledgments & Code Attribution
+## Acknowledgments & Code Attribution:
 
 This work builds upon:
 
