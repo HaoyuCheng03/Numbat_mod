@@ -30,3 +30,18 @@ analyses and emerging applications in personalized and translational cancer rese
 <p align="center">
   <img src="workflow.png" width="700">
 </p>
+
+
+## Acknowledgments & Code Attribution
+
+This work builds upon:
+
+- **Gao et al., *Haplotype-aware analysis of somatic copy number variations from single-cell transcriptomes***  
+  Nature Biotechnology (2022)  
+  https://www.nature.com/articles/s41587-022-01468-y
+
+- Original implementation: https://github.com/kharchenkolab/numbat
+
+Parts of this repository are adapted from the original codebase. We extend it with improvements in computational efficiency and scalability.
+
+We thank the original authors for making their method and code publicly available.
